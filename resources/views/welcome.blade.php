@@ -88,7 +88,7 @@
             </div>
         </section>
     </div>
-    <section class="bg-gray-200">
+    <section class="bg-[#F5F5F5]">
         <div class="mx-auto max-w-screen-xl py-12 w-full">
             <div class="flex items-center gap-12">
                 <div class="w-full">
