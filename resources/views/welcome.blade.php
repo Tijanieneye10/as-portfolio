@@ -58,7 +58,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="bg mt-12 mx-auto max-w-screen-xl pb-4 px-4 items-center lg:flex md:px-8">
+        <section class="mt-12 mx-auto max-w-screen-xl pb-4 px-4 items-center lg:flex md:px-8">
             <div class="space-y-4 flex-1 sm:text-center lg:text-left">
                 <h1 class="text-gray-800 font-bold text-4xl xl:text-5xl">
                     Welcome to the corner
@@ -88,5 +88,49 @@
             </div>
         </section>
     </div>
+    <section class="bg-gray-200">
+        <div class="mx-auto max-w-screen-xl py-12 w-full">
+            <div class="flex items-center gap-12">
+                <div class="w-full">
+                     <img class="rounded-3xl" src="{{ asset('assets/img/about.JPG') }}" alt="Hero Image">
+                </div>
+                <div class="w-full">
+                    <h4 class="font-bold text-3xl mb-4">
+                        About Me
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, assumenda distinctio earum enim et fuga, iste iure quaerat quas quisquam saepe sequi vitae, voluptatibus. Alias cum dolorum eius error, esse ex fugiat laboriosam maxime molestiae nam nostrum quia sunt tenetur veniam, voluptatum. Assumenda consequatur
+                        debitis distinctio, earum explicabo facere illum, laborum laudantium mollitia nemo
+                        neque nobis pariatur quaerat repellat voluptates? Ab accusamus commodi cupiditate
+                        dolorum ducimus error est excepturi fugit, hic impedit iste itaque laudantium nemo nulla numquam obcaecati pariatur possimus, recusandae, repellat repellendus sed ullam ut vitae! Delectus deserunt doloremque ducimus facere laborum nemo nihil obcaecati quibusdam, quis voluptatum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab alias animi aperiam at atque distinctio, dolorum eos eum fugit ipsa minima minus, odio optio quam recusandae repellat rerum sapiente, sed sint sit tempora tempore vel vitae voluptatibus? Accusantium cupiditate eaque eius ex facilis fugiat incidunt laboriosam porro sed voluptatibus.
+                    </p>
+                    <div class="flex items-center mt-4 gap-2">
+                        <a href="#"  class="p-1 rounded bg-gray-700 hover:bg-gray-900 transition-all">
+                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
+                                <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
+                            </svg>
+                        </a>
+                        <a href="#"  class="p-1 rounded bg-gray-700 hover:bg-gray-900 transition-all">
+                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                        <a class="p-1 rounded bg-gray-700 hover:bg-gray-900 transition-all" href="#">
+                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
+                            </svg>
+                        </a>
+                        <a class="p-1 rounded bg-gray-700 hover:bg-gray-900 transition-all" href="#">
+                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </body>
 </html>
