@@ -58,33 +58,19 @@
                 </ul>
             </nav>
         </header>
-        <section class="mt-12 mx-auto max-w-screen-xl pb-4 px-4 items-center lg:flex md:px-8">
+        <section class="mt-6 mx-auto max-w-screen-xl pb-8 px-4 items-center lg:flex md:px-8">
             <div class="space-y-4 flex-1 sm:text-center lg:text-left">
-                <h1 class="text-gray-800 font-bold text-4xl xl:text-5xl">
-                    Welcome to the corner
+                <h1 class="text-gray-800 font-bold text-4xl xl:text-6xl">
+                    Welcome to the corner of
                     <span class="text-indigo-600">Engr (Dr) A.S Yunusa</span>
                 </h1>
                 <p class="text-gray-500 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
                     I'm a serial Civil Engineer with broad experience in structural design & construction , Quality Control & Assurance and Project Management before advancing into Business Management with focus on finance & Investment.
                 </p>
-                <div>
-                    <p class="text-gray-800 py-3">
-                        Subscribe to our newsletter and we'll save your time
-                    </p>
-                    <form class="items-center space-y-3 sm:justify-center sm:space-x-3 sm:space-y-0 sm:flex lg:justify-start">
-                        <input
-                            type="text"
-                            placeholder="Enter your email"
-                            class="text-gray-500 border outline-none p-3 rounded-md w-full sm:w-72"
-                        />
-                        <button class="outline-none bg-gray-700 text-white text-center px-4 py-3 rounded-md shadow w-full ring-offset-2 ring-gray-700 focus:ring-2 sm:w-auto">
-                            Subscribe
-                        </button>
-                    </form>
-                </div>
+
             </div>
             <div class="flex-1 text-center mt-4 lg:mt-0 lg:ml-3">
-                <img src="{{ asset('assets/img/dr2.png') }}" class="w-full mx-auto sm:w-10/12 lg:w-full" />
+                <img src="{{ asset('assets/img/hero-image.png') }}" class="rounded-full w-full mx-auto sm:w-10/12 lg:w-10/12"  alt="Hero Image"/>
             </div>
         </section>
     </div>
