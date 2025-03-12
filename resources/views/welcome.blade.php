@@ -26,10 +26,10 @@
                 <div class="flex justify-between">
                     <a href="javascript:void(0)">
                         <img
-                            src="https://www.floatui.com/logo.svg"
-                            width="120"
+                            src="{{ asset('assets/img/as_logo.png') }}"
+                            width="100"
                             height="50"
-                            alt="Float UI logo"
+                            alt="logo"
                         />
                     </a>
                     <button class="text-gray-500 outline-none sm:hidden"
@@ -58,30 +58,35 @@
                 </ul>
             </nav>
         </header>
-        <section class="mt-6 mx-auto max-w-screen-xl pb-8 px-4 items-center lg:flex md:px-8">
-            <div class="space-y-4 flex-1 sm:text-center lg:text-left">
+        <section class="hero-bg mt-6 mx-auto max-w-screen-xl pb-8 px-4 items-center lg:flex md:px-8">
+            <div class="space-y-6 flex-1 sm:text-center lg:text-left">
+                <h4 class="text-gray-800 text-3xl xl:text-6xl">
+                    Hey there, this is my slice of the web!
+                </h4>
                 <h1 class="text-gray-800 font-bold text-4xl xl:text-6xl">
-                    Welcome to the corner of
-                    <span class="text-indigo-600">Engr (Dr) A.S Yunusa</span>
+                    <span>Engr (Dr) A.S. Yunusa</span>
                 </h1>
                 <p class="text-gray-500 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
                     I'm a serial Civil Engineer with broad experience in structural design & construction , Quality Control & Assurance and Project Management before advancing into Business Management with focus on finance & Investment.
                 </p>
 
+                <a class="btn" href="#">Download Resume</a>
+
             </div>
             <div class="flex-1 text-center mt-4 lg:mt-0 lg:ml-3">
-                <img src="{{ asset('assets/img/hero-image.png') }}" class="rounded-full w-full mx-auto sm:w-10/12 lg:w-10/12"  alt="Hero Image"/>
+                <img src="{{ asset('assets/img/hero-image.png') }}" class="rounded-b-full w-full mx-auto sm:w-10/12 lg:w-10/12"  alt="Hero Image"/>
             </div>
         </section>
     </div>
     <section class="bg-[#F5F5F5]">
-        <div class="mx-auto max-w-screen-xl py-12 w-full">
+        <div class="mx-auto max-w-screen-xl py-16 w-full">
             <div class="flex items-center gap-12">
-                <div class="w-full">
-                     <img class="rounded-3xl" src="{{ asset('assets/img/about.JPG') }}" alt="Hero Image">
+                <div class="w-full flex gap-2 relative">
+                     <img class="rounded-3xl w-1/2 relative bottom-6 shadow-lg" src="{{ asset('assets/img/civil2.JPG') }}" alt="Hero Image">
+                     <img class="rounded-3xl w-1/2 relative top-2 shadow-lg" src="{{ asset('assets/img/white.jpg') }}" alt="Hero Image">
                 </div>
                 <div class="w-full">
-                    <h4 class="font-bold text-3xl mb-4">
+                    <h4 class="font-extrabold text-6xl mb-4">
                         About Me
                     </h4>
                     <p>
@@ -108,15 +113,11 @@
                                 <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
                             </svg>
                         </a>
-                        <a class="p-1 rounded bg-gray-700 hover:bg-gray-900 transition-all" href="#">
-                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
-                            </svg>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     </body>
 </html>
