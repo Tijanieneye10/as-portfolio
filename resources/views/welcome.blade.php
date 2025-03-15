@@ -24,7 +24,7 @@
     <body>
     <div x-data="{ open: false }">
         <header>
-            <nav class="relative items-center pt-5 px-4 mx-auto max-w-screen-xl sm:px-8 sm:flex sm:space-x-6">
+            <nav class="relative items-center pt-5 mx-auto max-w-screen-xl sm:flex sm:space-x-6">
                 <div class="flex justify-between">
                     <a href="javascript:void(0)">
                         <img
@@ -51,11 +51,11 @@
                 </div>
                 <ul :class="{'hidden': !open, 'block': open}" class="bg-white shadow-md rounded-md p-4 flex-1 mt-12 absolute z-20 top-8 right-4 w-64 border sm:shadow-none sm:block sm:border-0 sm:mt-0 sm:static sm:w-auto">
                     <div class="order-1 justify-end items-center space-y-5 sm:flex sm:space-x-6 sm:space-y-0">
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Customers</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Careers</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Guides</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Partners</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Team</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">About Me</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Events</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Contact</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Bookings</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Awards</a></li>
                     </div>
                 </ul>
             </nav>
@@ -128,20 +128,26 @@
         </div>
     </section>
     <section class="py-12">
-        <div class="mx-auto max-w-screen-xl py-16 w-full">
-            <div class="grid-cols-1 sm:grid md:grid-cols-2">
+        <div class="mx-auto max-w-screen-xl py-16 w-full grid grid-cols-3 gap-6">
+            <div class="self-center">
+                <h4 class="font-extrabold text-4xl md:text-6xl">Events and Mentorship</h4>
+                <p class="py-6">
+                    Highlights of my events and mentorship programs I have been involved in over the years.
+                </p>
+            </div>
+            <div class="col-span-2 grid-cols-1 sm:grid md:grid-cols-2">
                 <div
                     class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
                     <a href="#">
                         <img
-                            class="rounded-t-lg w-full object-cover h-100 hover:scale-105 transition-all"
+                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
                             src="{{ asset('assets/img/aee.JPEG') }}"
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">AEE Training 2024</h5>
                         <p class="mb-4 text-base text-black">
-                            Academic Elite of Ebiraland training program, 2024
+                            Academic Elite of Ebiraland training.
                         </p>
                     </div>
                 </div>
@@ -149,7 +155,36 @@
                     class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
                     <a href="#">
                         <img
-                            class="rounded-t-lg w-full object-cover h-100 hover:scale-105 transition-all"
+                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
+                            src="{{ asset('assets/img/ait.JPG') }}"
+                            alt="AEE Training" />
+                    </a>
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">AIT Interview</h5>
+                        <p class="mb-4 text-base text-black">
+                            Africa Independence Television interview
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
+                    <a href="#">
+                        <img
+                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
+                            src="{{ asset('assets/img/ait.JPG') }}"
+                            alt="AEE Training" />
+                    </a>
+                    <div class="p-6">
+                        <h5 class="mb-2 text-xl font-medium leading-tight">AIT Interview</h5>
+                        <p class="mb-4 text-base text-black">
+                            Africa Independence Television interview
+                        </p>
+                    </div>
+                </div><div
+                    class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
+                    <a href="#">
+                        <img
+                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
                             src="{{ asset('assets/img/ait.JPG') }}"
                             alt="AEE Training" />
                     </a>
