@@ -73,23 +73,21 @@
                 </p>
 
                 <div class="flex items-center mt-4 gap-2">
-                    <a href="#" class="rounded-full border-2 p-1 bg-black  transition-all">
+                    <a target="_blank" href="https://www.linkedin.com/in/engr-dr-a-s-yunusa-a518b4153?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="rounded-full border-2 p-1 bg-black  transition-all">
                         <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                             <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
                             <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
                         </svg>
                     </a>
-                    <a href="#" class="rounded-full border-2 p-1 bg-black  transition-all">
+                    <a target="_blank" href="https://www.facebook.com/share/1A5oVco8fq/?mibextid=wwXIfr" class="rounded-full border-2 p-1 bg-black  transition-all">
                         <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                             <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
                         </svg>
                     </a>
-                    <a href="#" class="rounded-full border-2 p-1 bg-black  transition-all">
-                        <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
-                        </svg>
+                    <a target="_blank" href="https://www.tiktok.com/@easynec" class="rounded-full border-2 p-1 bg-black  transition-all">
+                        <svg class="w-4 h-4 text-white" width="24" height="24"  fill="#ffffff" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>TikTok icon</title><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"></path></g></svg>
                     </a>
-                    <a href="#" class="rounded-full border-2 p-1 bg-black  transition-all">
+                    <a target="_blank" href="https://www.instagram.com/engr_a.s_yunusa?igsh=MWVzeDhoemk0YW1vZw%3D%3D&utm_source=qr" class="rounded-full border-2 p-1 bg-black  transition-all">
                         <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
                         </svg>
@@ -156,13 +154,13 @@
                     <a href="#">
                         <img
                             class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
-                            src="{{ asset('assets/img/ait.JPG') }}"
+                            src="{{ asset('assets/img/nis.JPG') }}"
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
-                        <h5 class="mb-2 text-xl font-medium leading-tight">AIT Interview</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight">National Integrity Submit</h5>
                         <p class="mb-4 text-base text-black">
-                            Africa Independence Television interview
+                            An award of excellence in integrity.
                         </p>
                     </div>
                 </div>
@@ -171,7 +169,7 @@
                     <a href="#">
                         <img
                             class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
-                            src="{{ asset('assets/img/ait.JPG') }}"
+                            src="{{ asset('assets/img/mcd.JPG') }}"
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
@@ -185,7 +183,7 @@
                     <a href="#">
                         <img
                             class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
-                            src="{{ asset('assets/img/ait.JPG') }}"
+                            src="{{ asset('assets/img/kih.JPG') }}"
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
