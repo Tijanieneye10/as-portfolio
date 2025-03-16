@@ -197,6 +197,93 @@
         </div>
     </section>
 
+    <section class="bg-[#F5F5F5]">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm">
+                <h2 class="mb-4 text-4xl md:text-6xl tracking-tight font-extrabold text-gray-900">Testimonials</h2>
+                <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl">What people are saying about me</p>
+            </div>
+            <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
+                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
+                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500">
+                        <p class="my-4">
+                            "He is a person that enlighten and educate young fellow to not depends on salary only but to be a good entrepreneur also. May Almighty Allah continue to bless him.
+                        </p>
+                    </blockquote>
+                    <figcaption class="flex justify-center items-center space-x-3">
+                        <div class="space-y-0.5 font-medium">
+                            <div>Bello Shukroh Opeyemi</div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
+                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500">
+                        <p class="my-4">
+                            "Engr. A.S. Yunusa is one of the leading Young Engineers in Nigeria and Africa at large. He is a Humanitarian, a Peace Advocate, Business Management expert and an Inspiration for the next generations.
+                        </p>
+                    </blockquote>
+                    <figcaption class="flex justify-center items-center space-x-3">
+                        <div class="space-y-0.5 font-medium">
+                            <div>Abdulmalik Ibrahim Ozovehe</div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
+                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500">
+                        <p class="my-4">
+                            "When you mention honesty and integrity, he is the definition. His is well committed man, well focused and intelligent.
+                        </p>
+                    </blockquote>
+                    <figcaption class="flex justify-center items-center space-x-3">
+                        <div class="space-y-0.5 font-medium">
+                            <div>Yakubu Isah</div>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r">
+                    <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500">
+                        <p class="my-4">
+                            "He is a versatile engineer, business development expert, and above all a selfless leader..
+                        </p>
+                    </blockquote>
+                    <figcaption class="flex justify-center items-center space-x-3">
+                        <div class="space-y-0.5 font-medium">
+                            <div>Abdulbaki Jatto</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-white shadow-sm">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                    <img src="{{ asset('assets/img/as_logo.png') }}" class="h-20" alt="Logo" />
+                    <span class="self-center text-xl font-semibold whitespace-nowrap">Engr(DR) A.S Yunusa</span>
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0">
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline me-4 md:me-6">Bookings</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center">© {{ date('Y') }} <a href="tel:+2348144161555" class="hover:underline">Brainyworld Technology™</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
     @livewireScripts
     </body>
 </html>
