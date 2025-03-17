@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html class="scroll-smooth" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,7 @@
     <body>
     <div x-data="{ open: false }">
         <header>
-            <nav class="relative items-center pt-5 mx-auto max-w-screen-xl sm:flex sm:space-x-6">
+            <nav class="relative items-center max-sm:pr-4 pt-5 mx-auto max-w-screen-xl sm:flex sm:space-x-6">
                 <div class="flex justify-between">
                     <a href="javascript:void(0)">
                         <img
@@ -51,16 +51,15 @@
                 </div>
                 <ul :class="{'hidden': !open, 'block': open}" class="bg-white shadow-md rounded-md p-4 flex-1 mt-12 absolute z-20 top-8 right-4 w-64 border sm:shadow-none sm:block sm:border-0 sm:mt-0 sm:static sm:w-auto">
                     <div class="order-1 justify-end items-center space-y-5 sm:flex sm:space-x-6 sm:space-y-0">
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">About Me</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Events</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Contact</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Bookings</a></li>
-                        <li class="text-gray-500 hover:text-indigo-600"><a href="javascript:void(0)">Awards</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="#about">About Me</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="#events">Events</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="#testimonials">Testimonials</a></li>
+                        <li class="text-gray-500 hover:text-indigo-600"><a href="#bookings">Bookings</a></li>
                     </div>
                 </ul>
             </nav>
         </header>
-        <section class="hero-bg mt-6 mx-auto max-w-screen-xl pb-8 px-4 items-center lg:flex md:px-8">
+        <section id="hero" class="hero-bg mt-6 mx-auto max-w-screen-xl pb-8 px-4 items-center lg:flex md:px-8">
             <div class="space-y-6 flex-1 sm:text-center lg:text-left">
                 <h4 class="text-gray-800 text-3xl xl:text-6xl">
                     Hey there, this is my slice of the web!
@@ -102,7 +101,7 @@
             </div>
         </section>
     </div>
-    <section class="bg-[#F5F5F5] px-4 md:px-8">
+    <section id="about" class="bg-[#F5F5F5] px-4 md:px-8">
         <div class="mx-auto max-w-screen-xl py-16 w-full">
             <div class="md:flex items-center gap-12">
                 <div class="w-full flex gap-2 relative">
@@ -114,19 +113,15 @@
                         About Me
                     </h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, assumenda distinctio earum enim et fuga, iste iure quaerat quas quisquam saepe sequi vitae, voluptatibus. Alias cum dolorum eius error, esse ex fugiat laboriosam maxime molestiae nam nostrum quia sunt tenetur veniam, voluptatum. Assumenda consequatur
-                        debitis distinctio, earum explicabo facere illum, laborum laudantium mollitia nemo
-                        neque nobis pariatur quaerat repellat voluptates? Ab accusamus commodi cupiditate
-                        dolorum ducimus error est excepturi fugit, hic impedit iste itaque laudantium nemo nulla numquam obcaecati pariatur possimus, recusandae, repellat repellendus sed ullam ut vitae! Delectus deserunt doloremque ducimus facere laborum nemo nihil obcaecati quibusdam, quis voluptatum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab alias animi aperiam at atque distinctio, dolorum eos eum fugit ipsa minima minus, odio optio quam recusandae repellat rerum sapiente, sed sint sit tempora tempore vel vitae voluptatibus? Accusantium cupiditate eaque eius ex facilis fugiat incidunt laboriosam porro sed voluptatibus.
+                        Engr. (Dr ) A.S. Yunusa is a skilled civil engineer and management specialist with a proven ability to lead and implement corporate strategies. Specializing in construction and real estate development, He has successfully overseen high-impact projects, including the completion of the project phase of the West African largest economic hub powered by Brains and Hammers. His strengths lie in strategic direction-setting, team management, finance & investment, ensuring regulatory compliance, and showcasing a holistic skill set that seamlessly integrates technical and business management & development acumen. His commitment to ongoing education, civic responsibilities, and industry networking positions him as a valuable asset for organizations seeking a results-oriented professional with a holistic skill set.
                     </p>
 
                 </div>
             </div>
         </div>
     </section>
-    <section class="py-12">
-        <div class="mx-auto max-w-screen-xl py-16 w-full grid grid-cols-3 gap-6">
+    <section id="events" class="py-12">
+        <div class="px-4 mx-auto max-w-screen-xl py-16 w-full md:grid grid-cols-3 gap-6">
             <div class="self-center">
                 <h4 class="font-extrabold text-4xl md:text-6xl">Events and Mentorship</h4>
                 <p class="py-6">
@@ -138,7 +133,7 @@
                     class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
                     <a href="#">
                         <img
-                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
+                            class="rounded-t-lg w-full object-cover h-48 md:h-60 hover:scale-105 transition-all"
                             src="{{ asset('assets/img/aee.JPEG') }}"
                             alt="AEE Training" />
                     </a>
@@ -168,7 +163,7 @@
                     class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
                     <a href="#">
                         <img
-                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
+                            class="rounded-t-lg w-full object-cover h-48 md:h-60 hover:scale-105 transition-all"
                             src="{{ asset('assets/img/mcd.JPG') }}"
                             alt="AEE Training" />
                     </a>
@@ -182,7 +177,7 @@
                     class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
                     <a href="#">
                         <img
-                            class="rounded-t-lg w-full object-cover h-60 hover:scale-105 transition-all"
+                            class="rounded-t-lg w-full object-cover h-48 md:h-60 hover:scale-105 transition-all"
                             src="{{ asset('assets/img/kih.JPG') }}"
                             alt="AEE Training" />
                     </a>
@@ -197,7 +192,7 @@
         </div>
     </section>
 
-    <section class="bg-[#F5F5F5]">
+    <section id="testimonials" class="bg-[#F5F5F5]">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
             <div class="mx-auto max-w-screen-sm">
                 <h2 class="mb-4 text-4xl md:text-6xl tracking-tight font-extrabold text-gray-900">Testimonials</h2>
@@ -256,7 +251,7 @@
         </div>
     </section>
 
-    <div class="relative overflow-hidden bg-gray-900 rounded-2xl m-16">
+    <div id="bookings" class="relative overflow-hidden bg-gray-900 rounded-2xl m-4 lg:m-16">
         <div class="px-16 py-8 sm:px-8 lg:px-16 lg:py-14">
             <div class="md:flex md:items-center md:space-x-12 lg:space-x-24">
                 <div class="grid grid-cols-1 gap-y-3 sm:grid-cols-2 gap-x-12 xl:gap-x-24">
@@ -268,7 +263,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 13l4 4L19 7">
                                     </path>
-                                </svg> Unlimited updates
+                                </svg> Business Development & Strategy
                             </li>
                             <li class="flex items-center">
                                 <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -276,7 +271,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 13l4 4L19 7">
                                     </path>
-                                </svg> Bigger app size
+                                </svg> Speaking engagement
                             </li>
                             <li class="flex items-center">
                                 <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -284,7 +279,8 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 13l4 4L19 7">
                                     </path>
-                                </svg> More version Storage
+                                </svg> Team Development
+
                             </li>
                         </ul>
                     </div>
@@ -296,7 +292,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 13l4 4L19 7">
                                     </path>
-                                </svg> Custom domain
+                                </svg> Finance and Investment Guide
                             </li>
                             <li class="flex items-center">
                                 <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -304,7 +300,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 13l4 4L19 7">
                                     </path>
-                                </svg> Special API access
+                                </svg> Portfolio management
                             </li>
                             <li class="flex items-center">
                                 <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -312,7 +308,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                           d="M5 13l4 4L19 7">
                                     </path>
-                                </svg> Bulk upload
+                                </svg> Mentorship & Training
                             </li>
                         </ul>
                     </div>
@@ -413,8 +409,8 @@
                 </div>
                 <div class="mt-10 md:mt-0">
                     <a title="Get quote now"
-                       class="inline-flex items-center justify-center px-9 py-3.5 mt-5 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white font-pj hover:bg-opacity-90 rounded-xl"
-                       href="#support"> Book a session with me.
+                       class="inline-flex items-center justify-center px-9 py-3.5 mt-5 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white hover:bg-opacity-90 rounded-xl"
+                       href="#support"> Schedule a call.
                     </a>
                 </div>
             </div>
@@ -431,16 +427,16 @@
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0">
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">About Me</a>
+                        <a href="#about" class="hover:underline me-4 md:me-6">About Me</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Events</a>
+                        <a href="#events" class="hover:underline me-4 md:me-6">Events</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Bookings</a>
+                        <a href="#bookings" class="hover:underline me-4 md:me-6">Bookings</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">Testimonials</a>
+                        <a href="#testimonials" class="hover:underline">Testimonials</a>
                     </li>
                 </ul>
             </div>
