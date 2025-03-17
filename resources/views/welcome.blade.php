@@ -113,7 +113,10 @@
                         About Me
                     </h4>
                     <p>
-                        Engr. (Dr ) A.S. Yunusa is a skilled civil engineer and management specialist with a proven ability to lead and implement corporate strategies. Specializing in construction and real estate development, He has successfully overseen high-impact projects, including the completion of the project phase of the West African largest economic hub powered by Brains and Hammers. His strengths lie in strategic direction-setting, team management, finance & investment, ensuring regulatory compliance, and showcasing a holistic skill set that seamlessly integrates technical and business management & development acumen. His commitment to ongoing education, civic responsibilities, and industry networking positions him as a valuable asset for organizations seeking a results-oriented professional with a holistic skill set.
+                        Engr. (Dr ) A.S. Yunusa is a skilled civil engineer and management specialist with a proven ability to lead and implement corporate strategies. Specializing in construction and real estate development, He has successfully overseen high-impact projects, including the completion of the project phase of the West African largest economic hub powered by Brains and Hammers.
+                    </p>
+                    <p class="mt-3">
+                        His strengths lie in strategic direction-setting, team management, finance & investment, ensuring regulatory compliance, and showcasing a holistic skill set that seamlessly integrates technical and business management & development acumen. His commitment to ongoing education, civic responsibilities, and industry networking positions him as a valuable asset for organizations seeking a results-oriented professional with a holistic skill set.
                     </p>
 
                 </div>
