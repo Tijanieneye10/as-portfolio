@@ -4,11 +4,27 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <!-- Primary Meta Tags -->
+        <title>Engr(Dr) A.S. Yunusa Portoflio</title>
+        <meta name="title" content="Engr(Dr) A.S. Yunusa Portoflio" />
+        <meta name="description" content="Engr. (Dr ) A.S. Yunusa is a skilled civil engineer and management specialist with a proven ability to lead and implement corporate strategies." />
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ config('app.url') }}" />
+        <meta property="og:title" content="Engr(Dr) A.S. Yunusa Portoflio" />
+        <meta property="og:description" content="Engr. (Dr ) A.S. Yunusa is a skilled civil engineer and management specialist with a proven ability to lead and implement corporate strategies." />
+        <meta property="og:image" content="{{ asset('assets/img/hero-image.png') }}" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="{{ config('app.url') }}" />
+        <meta property="twitter:title" content="Engr(Dr) A.S. Yunusa Portoflio" />
+        <meta property="twitter:description" content="Engr. (Dr ) A.S. Yunusa is a skilled civil engineer and management specialist with a proven ability to lead and implement corporate strategies." />
+        <meta property="twitter:image" content="{{ asset('assets/img/hero-image.png') }}" />
+
+        <!-- Meta Tags Generated with https://metatags.io -->
+        <link rel="shortcut icon" href="{{ asset('assets/img/as_logo.png') }}" type="image/x-icon">
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -141,9 +157,9 @@
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
-                        <h5 class="mb-2 text-xl font-medium leading-tight">AEE Training 2024</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight">Building your Startup</h5>
                         <p class="mb-4 text-base text-black">
-                            Academic Elite of Ebiraland training.
+                            Facilitating a training with startups on how to start and scale a business.
                         </p>
                     </div>
                 </div>
@@ -158,7 +174,7 @@
                     <div class="p-6">
                         <h5 class="mb-2 text-xl font-medium leading-tight">National Integrity Submit</h5>
                         <p class="mb-4 text-base text-black">
-                            An award of excellence in integrity.
+                            An award of excellence in integrity, recognizing unwavering commitment.
                         </p>
                     </div>
                 </div>
@@ -171,12 +187,13 @@
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
-                        <h5 class="mb-2 text-xl font-medium leading-tight">AIT Interview</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight">On-Site Technical resolution</h5>
                         <p class="mb-4 text-base text-black">
-                            Africa Independence Television interview
+                            With the team of project managers resolving technical issues on site.
                         </p>
                     </div>
-                </div><div
+                </div>
+                <div
                     class="overflow-hidden mx-3 mt-6 flex flex-col self-start rounded-lg bg-white text-surface shadow-secondary-1 sm:shrink-0 sm:grow sm:basis-0 border">
                     <a href="#">
                         <img
@@ -185,9 +202,9 @@
                             alt="AEE Training" />
                     </a>
                     <div class="p-6">
-                        <h5 class="mb-2 text-xl font-medium leading-tight">AIT Interview</h5>
+                        <h5 class="mb-2 text-xl font-medium leading-tight">At KADIHE in Kaduna 2024</h5>
                         <p class="mb-4 text-base text-black">
-                            Africa Independence Television interview
+                            Delivering a Goodwill message at the 2024 Kaduna Housing Exhibition.
                         </p>
                     </div>
                 </div>
