@@ -45,8 +45,7 @@
                     <a href="javascript:void(0)">
                         <img
                             src="{{ asset('assets/img/as_logo.png') }}"
-                            width="100"
-                            height="50"
+                            width="120"
                             alt="logo"
                         />
                     </a>
@@ -442,7 +441,7 @@
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                    <img src="{{ asset('assets/img/as_logo.png') }}" class="h-20" alt="Logo" />
+                    <img src="{{ asset('assets/img/as_logo.png') }}" class="h-30" alt="Logo" />
                     <span class="self-center text-xl font-semibold whitespace-nowrap">Engr(DR) A.S Yunusa</span>
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0">
