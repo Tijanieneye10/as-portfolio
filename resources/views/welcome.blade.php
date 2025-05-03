@@ -86,7 +86,7 @@
                     <span>A.S. YUNUSA</span>
                 </h1>
                 <p class="text-gray-500 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
-                    I'm a serial Civil Engineer with broad experience in structural design & construction , Quality Control & Assurance and Project Management before advancing into Business Management with focus on finance & Investment.
+                    A visionary Real Estate Developer, Business Leader, and Influential voice, Passionate about building Africa through Innovation, Leadership, and Youth Empowerment.
                 </p>
 
                 <div class="flex items-center mt-4 gap-2">
