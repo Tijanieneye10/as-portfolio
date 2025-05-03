@@ -26,6 +26,9 @@
         <!-- Meta Tags Generated with https://metatags.io -->
         <link rel="shortcut icon" href="{{ asset('assets/img/as_logo.png') }}" type="image/x-icon">
 
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
             @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -107,8 +110,6 @@
                         </svg>
                     </a>
                 </div>
-
-                <a class="btn" href="#">Download Resume</a>
 
             </div>
             <div class="flex-1 text-center mt-4 lg:mt-0 lg:ml-3">
@@ -427,9 +428,9 @@
                     </div>
                 </div>
                 <div class="mt-10 md:mt-0">
-                    <a title="Get quote now"
+                    <a  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/yunzaempire/30min'});return false;"
                        class="inline-flex items-center justify-center px-9 py-3.5 mt-5 text-base font-bold text-gray-900 transition-all duration-200 bg-white border border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white hover:bg-opacity-90 rounded-xl"
-                       href="#support"> Schedule a call.
+                       href=""> Schedule a call.
                     </a>
                 </div>
             </div>
@@ -465,5 +466,6 @@
     </footer>
 
     @livewireScripts
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     </body>
 </html>
