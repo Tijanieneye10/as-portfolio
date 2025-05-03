@@ -83,7 +83,7 @@
                     Hey there, this is my slice of the web!
                 </h4>
                 <h1 class="text-gray-800 font-bold text-4xl xl:text-6xl">
-                    <span>Engr (Dr) A.S. Yunusa</span>
+                    <span>A.S. YUNUSA</span>
                 </h1>
                 <p class="text-gray-500 max-w-xl leading-relaxed sm:mx-auto lg:ml-0">
                     I'm a serial Civil Engineer with broad experience in structural design & construction , Quality Control & Assurance and Project Management before advancing into Business Management with focus on finance & Investment.
@@ -443,7 +443,7 @@
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <img src="{{ asset('assets/img/as_logo.png') }}" class="h-30" alt="Logo" />
-                    <span class="self-center text-xl font-semibold whitespace-nowrap">Engr(DR) A.S Yunusa</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap">A.S. YUNUSA</span>
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium  sm:mb-0">
                     <li>
